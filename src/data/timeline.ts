@@ -6,23 +6,23 @@ export interface TimelineEvent {
 
 export const timelineEvents: TimelineEvent[] = [
   {
-    year: "Feb 2025 – Present",
-    title: "AI/ML Engineer @ JPMC",
-    description: "Developing AI applications with Python, Flask, and Java. Engineered an LLM-powered chatbot reducing query response time by 80%, built model REST APIs with MongoDB & AWS S3, and automated CI/CD using Docker & GitHub Actions.",
+    "year": "Feb 2025 - Present",
+    "title": "Data Scientist @ JP Morgan Chase",
+    "description": "Built AI-enabled financial analytics applications using Python, SQL, and Databricks to analyze credit portfolio performance, improving campaign decision accuracy by 18%. Developed scalable ETL/ELT pipelines with Snowflake and Azure reducing prep time by 35%, deployed ML solutions across 12+ segments, and applied generative AI & LangChain to automate commentary workflows."
   },
   {
-    year: "Aug 2024 – May 2026",
-    title: "M.S. in Data Science @ University at Albany",
-    description: "Master of Science in Data Science. Specializing in machine learning, deep learning, statistical analysis, predictive modeling, and scalable AI solutions.",
+    "year": "Aug 2024 - May 2026",
+    "title": "M.S. in Data Science @ University at Albany",
+    "description": "Master of Science in Data Science (Albany, NY). Specializing in machine learning, deep learning, big data architectures, statistical modeling, and cloud analytics."
   },
   {
-    year: "Jan 2023 – Apr 2024",
-    title: "Data Engineer @ AbhiBus",
-    description: "Built scalable ETL pipelines using Python, Apache Spark, and MySQL across 25+ tables. Implemented real-time Kafka ingestion streams and optimized SQL workloads to reduce query latency by 50%.",
+    "year": "Jan 2023 - Apr 2024",
+    "title": "Data Engineer @ AbhiBus",
+    "description": "Built enterprise data pipelines using AWS, Apache Spark, and SQL processing 2M+ daily operational transactions. Managed Databricks and Snowflake workflows to boost query performance by 10x, and created automated real-time event streaming with Apache Kafka and AWS Kinesis."
   },
   {
-    year: "Aug 2020 – May 2024",
-    title: "B.Tech in Computer Science @ SRM University AP",
-    description: "Bachelor's degree with specialization in Data Science. Built core foundations in machine learning, algorithms, computer vision, data engineering, and statistical modeling.",
-  },
+    "year": "Aug 2020 - May 2024",
+    "title": "B.Tech in Computer Science @ SRM University AP",
+    "description": "Specialized in Data Science & Machine Learning. Built strong foundations in machine learning algorithms, distributed data engineering, computer vision, and statistical modeling."
+  }
 ];

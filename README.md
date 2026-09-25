@@ -1,98 +1,74 @@
 # 🌟 Rajya Lakshmi Kadiyala — Portfolio
 
 [![Deploy Portfolio to GitHub Pages](https://github.com/raji-crypto/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/raji-crypto/portfolio/actions/workflows/deploy.yml)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat&logo=github)](https://raji-crypto.github.io/portfolio/)
+[![Live Demo](https://img.shields.io/badge/Live--Demo-brightgreen?style=flat&logo=github)](https://raji-crypto.github.io/portfolio/)
 [![React](https://img.shields.io/badge/React-18.2-blue?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 
-> Modern, interactive, and high-performance developer portfolio showcasing expertise in **Data Science**, **Artificial Intelligence**, and **Machine Learning**.
+> Modern, interactive developer portfolio showcasing expertise in **Data Science**, **Artificial Intelligence**, **Databricks**, and **Enterprise Data Engineering**.
 
-🌐 **Live URL**: [https://raji-crypto.github.io/portfolio/](https://raji-crypto.github.io/portfolio/)
-
----
-
-## ✨ Features
-
-- 🎨 **Modern Dark Aesthetics**: Ambient 3D floating gradient blobs, glassmorphic surfaces, and neon cursor highlights.
-- ⚡ **Fluid Micro-Animations**: Built with Framer Motion, featuring magnetic button interactions, parallax scrolling, and text distortion effects.
-- 💼 **Interactive Project Showcase**: Detailed modal views, categorized tech stacks, live links, and GitHub source code.
-- 🛠️ **Skills & Competencies**: Visual breakdown of ML/AI architectures, cloud tools, programming languages, and databases.
-- 📜 **Timeline & Milestones**: Interactive career roadmap covering education, research experience, and key accomplishments.
-- 📱 **Fully Responsive**: Seamlessly optimized across desktop, tablet, and mobile displays.
-- 🚀 **Automated CI/CD**: Built-in GitHub Actions workflow for zero-touch deployments to GitHub Pages on every push to `main`.
+🌐 **Live Website**: [https://raji-crypto.github.io/portfolio/](https://raji-crypto.github.io/portfolio/)
 
 ---
 
-## 🛠️ Tech Stack
+## 👼 Featured Projects
 
-| Domain | Technologies |
-|---|---|
-| **Frontend Framework** | [React 18](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/) |
-| **Bundler & Build Tool**| [Vite](https://vitejs.dev/) |
-| **Styling & Design**   | [Tailwind CSS](https://tailwindcss.com/), [PostCSS](https://postcss.org/) |
-| **Animations**         | [Framer Motion](https://www.framer.com/motion/) |
-| **Icons**              | [Lucide React](https://lucide.dev/) |
-| **Deployment & CI/CD** | [GitHub Actions](https://github.com/features/actions), [GitHub Pages](https://pages.github.com/) |
+1. **AI-Enabled Financial Analytics & Forecasting Platform (JPMorgan Chase)**
+   - Built AI-enabled financial analytics applications using Python, SQL, and **Databricks** to analyze credit portfolio performance, financial forecasting, and scenario analysis, improving campaign decision accuracy by **18%**.
+   - Developed scalable ETLLELT pipelines with Snowflake & Azure reducing reporting preparation time by **35%**, and deployed Generative AI with **LangChain** reducing manual commentary effort by **30%**.
 
----
+2. **Scalable Enterprise Data Pipeline & Real-Time Analytics (AbhiBus)**
+   - Engineered scalable data pipelines with AWS, Apache Spark, and SQL for **2M+ daily operational transactions**.
+   - Managed **Databricks** and Snowflake analytics workflows delivering a **10x query performance boost**, alongside real-time Kafka & Kinesis event streaming.
 
-## 🚀 Getting Started
+3. **Agentic AI Assistant for Document Intelligence**
+   - Autonomous AI agent built with Python, **LangChain**, and **GPT-4** utilizing Retrieval-Augmented Generation (**RAG**) and vector databases to query and extract structured insights from unstructured documents.
 
-### Prerequisites
+4. **Automated ETL Pipeline for Financial Data Processing**
+   - End-to-end automated ETL pipeline engineered using **Apache Airflow**, Python, and **Snowflake** to extract, transform, and load **1M+ daily financial records** from multi-source APIs with automated validation rules.
 
-- [Node.js](https://nodejs.org/) (version 18 or 20 recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+5. **Fingerprint Recognition & Feature Analysis**
+   - Automated biometric pattern recognition and minutiae classification architecture using OpenCV and machine learning classifiers.
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/raji-crypto/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the local development server:**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:5173](http://localhost:5173) in your browser to view the application.
-
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
-
-5. **Preview production build locally:**
-   ```bash
-   npm run preview
-   ```
+6. **Sentiment Analysis of Vaccination in India (Twitter)**
+   - NLP pipeline classifying public sentiment and temporal discourse shifts with automated text preprocessing and interactive visualization.
 
 ---
 
-## ⚙️ GitHub Pages Setup
+## 🧠 Core Skills & Technologies
 
-1. Go to your repository on GitHub: `https://github.com/raji-crypto/portfolio`.
-2. Navigate to **Settings** > **Pages**.
-3. Under **Build and deployment** > **Source**, choose **GitHub Actions**.
-4. Pushing any changes to the `main` branch will automatically trigger the deployment workflow located at `.github/workflows/deploy.yml`.
+- **Data Engineering & Cloud**: Databricks, Azure Databricks, Apache Spark, Apache Kafka, Apache Airflow, Snowflake, AWS (S3, EC2, Lambda, Kinesis, Glue, SageMaker), Azure (Synapse, Data Factory, AKS)
+- **Machine Learning & AI**: Scikit-learn, PyTorch, TensorFlow, LMMs, LangChain, RAG, NLP, Computer Vision, XGBoost, MLflow
+- **Programming & Databases**: Python, SQL, PySpark, Java, R, PostgreSQL, MySQL, MongoDB, Medallion Lakehouse
+- **Visualization & BI**: Power BI (DAX, Power Query), Tableau, Matplotlib, Seaborn
 
 ---
 
-## 👤 Author
+## 🚀 Getting Started Locally
 
+```bash
+# 1. Clone repository
+git clone https://github.com/raji-crypto/portfolio.git
+cd portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
+npm run dev
+
+# 4. Build for production
+npm run build
+p``
+
+---
+
+## 💔 Author
 **Rajya Lakshmi Kadiyala**
 - **GitHub**: [@raji-crypto](https://github.com/raji-crypto)
-- **Role**: Data Science | Artificial Intelligence | Machine Learning Engineer
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+- **LinkedIn**: [rajyalakshmikadiyala](https://www.linkedin.com/in/rajyalakshmikadiyala)
+- **Email**: [rajyakadiyala.8@gmail.com](mailto:rajyakadiyala.8@gmail.com)
+- **Phone**: +1 518-888-1995
+- **Role**: Data Scientist | AI & Machine Learning | Databricks & Cloud Data Engineering

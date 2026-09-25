@@ -40,7 +40,7 @@ export default function About() {
             <AnimatedText delay={0.1}>
               <MagneticWrapper strength={0.1}>
                 <p className="text-lg md:text-xl lg:text-2xl text-gray-400 leading-relaxed font-light cursor-hover text-justify pb-4">
-                  My work centers on developing scalable data systems and predictive AI solutions that solve practical enterprise challenges. At JPMC, I build AI applications and LLM chatbots that streamline query resolution by 80%, while at AbhiBus, I engineered real-time Spark and Kafka ETL pipelines processing high-volume e-commerce data across 25+ tables.
+                  My work centers on developing scalable data systems and predictive AI solutions that solve practical enterprise challenges. At JPMorgan Chase, I develop AI-enabled financial analytics applications using Python, SQL, and Databricks to analyze credit portfolio performance, while previously at AbhiBus, I built enterprise ETL pipelines using AWS, Apache Spark, and Databricks processing 2M+ daily operational transactions.
                 </p>
               </MagneticWrapper>
             </AnimatedText>
@@ -48,7 +48,7 @@ export default function About() {
             <AnimatedText delay={0.2}>
               <MagneticWrapper strength={0.1}>
                 <p className="text-lg md:text-xl lg:text-2xl text-gray-400 leading-relaxed font-light cursor-hover text-justify">
-                  With strong technical proficiency in Python, SQL, R, Java, Scikit-learn, PyTorch, TensorFlow, and AWS, I handle the full lifecycle—from data cleaning and feature engineering to REST API implementation and MLOps deployment.
+                  With hands-on expertise spanning Databricks, Snowflake, PyTorch, Scikit-learn, MLflow, Docker, and Apache Airflow, I handle the complete data lifecycle - from robust ETL/ELT pipelines and feature engineering to production ML serving and auditable AI governance.
                 </p>
               </MagneticWrapper>
             </AnimatedText>
@@ -58,7 +58,7 @@ export default function About() {
             <AnimatedText delay={0.3}>
               <MagneticWrapper strength={0.1}>
                 <p className="text-lg md:text-xl lg:text-2xl text-gray-400 leading-relaxed font-light cursor-hover text-justify">
-                  Currently pursuing a Master of Science in Data Science at the University at Albany (Aug 2024 – May 2026) and holding a Bachelor's in Computer Science with a specialization in Data Science from SRM University AP, I combine analytical rigor with clean engineering execution.
+                  Currently pursuing a Master of Science in Data Science at the University at Albany (Aug 2024 - May 2026) and holding a Bachelor's in Computer Science with a specialization in Data Science from SRM University AP, I combine analytical rigor with clean engineering execution.
                 </p>
               </MagneticWrapper>
             </AnimatedText>
